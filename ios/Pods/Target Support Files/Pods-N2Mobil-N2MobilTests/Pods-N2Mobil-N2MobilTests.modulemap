@@ -1,0 +1,6 @@
+module Pods_N2Mobil_N2MobilTests {
+  umbrella header "Pods-N2Mobil-N2MobilTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
