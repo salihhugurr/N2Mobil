@@ -14,14 +14,12 @@ import {useDispatch, useSelector} from "react-redux";
 import axios from "axios";
 import {AppColor, BASE_URL, FONTS} from "../constants";
 import {CustomHeader} from "../components/CustomHeader";
-import {ww,wh} from "../helpers";
+import {ww,wh,getDistance} from "../helpers";
 import {Divider, Icon} from "react-native-elements";
 import FavIcon from "../assets/Icons/FavIcon";
 import FavIconUnfilled from "../assets/Icons/FavIconUnfilled";
 import {addFav, AddFav, removeFav} from "../redux/action";
-import {saveState} from "../localStorage";
 import SearchIcon from "../assets/Icons/SearchIcon";
-import {getDistance} from "../helpers/getDistance";
 
 
 const HomeScreen = () => {
