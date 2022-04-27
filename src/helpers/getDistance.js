@@ -37,5 +37,5 @@ export const getDistance = (data) => {
     var sliced = turf.lineSlice(start, stop, line.features[0]);
     var length = turf.lineDistance(sliced, 'kilometers');
 
-    return length;
+    return length * 1000;
 }
